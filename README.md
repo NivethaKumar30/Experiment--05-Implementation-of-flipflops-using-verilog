@@ -102,39 +102,47 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
+Using NAND gates and wires construct SR Flip-flop Repeat same steps to construct JK, D, T flipflops Find RTL logic and timing diagram for all flipflops End the program
 
-
-
+```
+Program for flipflops and verify its truth table in quartus using Verilog programming
+. Developed by: NIVETHA K RegisterNumber: 212222230102
+```
 ### PROGRAM 
-/*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+```
+*/SR Flip-flop module sr_flipflop(S, R, clock, Q, Qbar); input S, R, clock; output Q, Qbar; wire X, Y; nand(X, S, clock); nand(Y, R, clock); nand(Q, X, Qbar); nand(Qbar, Y, Q); endmodule D Flip-flop module d_flipflop(D, clock, Q, Qbar); input D, clock; output Q, Qbar; assign Dbar = ~D; wire X, Y; nand(X, D, clock); nand(Y, Dbar, clock); nand(Q, X, Qbar); nand(Qbar, Y, Q); endmodule JK Flip-flop module jk_flipflop(J, K, clock, Q, Qbar); input J, K, clock; output Q, Qbar; wire P, S; nand(P, J, clock, Qbar); nand(S, K, clock, Q); nand(Q, P, Qbar); nand(Qbar, S, Q); endmodule T Flip-flop module t_flipflop(T, clock, Q, Qbar); input T, clock; output Q, Qbar; wire A, B; nand(A, T, clock, Qbar); nand(B, T, clock, Q); nand(Q, A, Qbar); nand(Qbar, B, Q); endmodule RTL LOGIC FOR FLIPFLOPS SR Flip-flop
+```
+![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/7811d618-ab49-40e6-8d6b-90069a4e7f28)
 
+D Flip-flop
 
+![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/fc38e47e-fc21-4664-aa44-9e8239d0d828)
 
+JK Flip-flop
 
+![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/95f19a35-6488-4959-bb1f-8a3e869666ef)
 
+T Flip-flop
 
-### RTL LOGIC FOR FLIPFLOPS 
+![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/66949322-e13a-4bed-a776-e9ca10d00c71)
 
+TIMING DIGRAMS FOR FLIP FLOPS SR Flip fLOP
 
+![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/c0251a5c-c297-47ae-a143-23d7e2e2b095)
 
+D Flip-flop
 
+![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/2ed87ed1-70b1-467c-a7ab-4f989b5e4736)
 
+JK Flip-flop
 
+![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/8d9dee2a-ef08-41e0-9ef3-b7a2e3654f19)
 
+T Flip-flop
 
-
-### TIMING DIGRAMS FOR FLIP FLOPS 
-
-
-
-
-
-
+![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/0daa853d-fce5-4fe0-ba58-a9b1a2c6afd3)
 
 
 ### RESULTS 
+
+Thus implementation of flipflops using verilog is verified
