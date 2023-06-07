@@ -174,35 +174,44 @@ begin
 end
 endmodule
 ```
-![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/7811d618-ab49-40e6-8d6b-90069a4e7f28)
 
-D Flip-flop
+##OUTPUT:
+RTL LOGIC FOR FLIPFLOPS
 
-![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/fc38e47e-fc21-4664-aa44-9e8239d0d828)
+SR FlipFlop
 
-JK Flip-flop
+![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/88a82778-e958-4f84-8a15-9414b6dfbb5f)
 
-![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/95f19a35-6488-4959-bb1f-8a3e869666ef)
+T FlipFlop
 
-T Flip-flop
+![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/dfd743dc-6222-4985-b5a5-efbb2303e6a1)
 
-![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/66949322-e13a-4bed-a776-e9ca10d00c71)
+D FlipFlop
 
-TIMING DIGRAMS FOR FLIP FLOPS SR Flip fLOP
+![D FF](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/8298ab6e-1032-4bb1-bbf2-c730278fb4cb)
 
-![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/c0251a5c-c297-47ae-a143-23d7e2e2b095)
+JK FlipFlop
 
-D Flip-flop
+![JK FF](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/ba238469-6e83-4166-9a35-751723bc002f)
 
-![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/2ed87ed1-70b1-467c-a7ab-4f989b5e4736)
 
-JK Flip-flop
+TIMING DIGRAMS FOR FLIP FLOPS
 
-![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/8d9dee2a-ef08-41e0-9ef3-b7a2e3654f19)
+SR FlipFlop
 
-T Flip-flop
+![SR TT](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/bd21054d-cfb4-4a6a-839c-fe6ea6523ec3)
 
-![image](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/0daa853d-fce5-4fe0-ba58-a9b1a2c6afd3)
+T FlipFlop
+
+![ttt](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/2864dc69-ce50-4d1f-a084-f9825335067b)
+
+D FlipFlop
+
+![D](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/c4ae7fa7-a7c5-4a99-a0c3-a02d7d4470b4)
+
+JK FlipFlop
+
+![JK FF](https://github.com/NivethaKumar30/Experiment--05-Implementation-of-flipflops-using-verilog/assets/119559844/15b7990d-3a72-47e5-88a3-d7262f4d970f)
 
 
 ### RESULTS 
